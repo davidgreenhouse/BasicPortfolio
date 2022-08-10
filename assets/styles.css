@@ -1,0 +1,110 @@
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: rgb(71, 69, 69);
+    display: flex;
+    
+}
+header h1 {
+    background-color: teal;
+    color: black;
+    display: inline-block;
+    font-size: 40px;
+    padding-left: 50px;
+    border-radius: 10px;
+    padding-right: 5px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    padding-right: 55px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+header nav ul li a {
+    color: teal;
+    font-weight: 500;
+    font-size: 30px;
+    
+}
+
+.hero {
+    height: 320px;
+    width: auto;
+    margin-bottom: 35px;
+    background-image: url("./images/wedding-photo.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid grey;
+}
+
+
+.container {
+    display: inline;
+}
+
+section {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-bottom: 80px;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+/* section:hover {
+    color:aqua;
+    border: 2px solid black;
+}
+ */
+
+
+
+
+section h2 {
+    color: blue;
+    font-size: 40px;
+}
+
+section p {
+    margin-left: 20%;
+    margin-right: 7%;
+    font-size: 25px;
+    font-weight: 500;
+
+
+}
+.contact {
+    margin-left: auto;
+    margin-right: 7%;
+    margin-top: 30px;
+}
+
+.contact li {
+    display: inline;
+}
+
+
+.contact a {
+    display: inline;
+    color: teal;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 50px;
+}
+
+
+

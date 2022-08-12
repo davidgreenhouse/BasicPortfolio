@@ -105,12 +105,12 @@ section p {
 }
 
 .work-one {
-    display: grid;
-    width: 100%;
+    display: block;
+    width: 600%;
     height: 100%;
-    outline: 0.3rem ridge #05dbf7;
-    grid-column: 1/4;
-    grid-row: 4/6;
+    outline: 0.3rem ridge #0f8f03;
+    /* grid-column: 1/4;
+    grid-row: 4/6; */
     margin-left: 20%;
     background-image: url("./images/coding-image.jpg");
     background-size: cover;
@@ -118,27 +118,28 @@ section p {
 }
 
 .work-two {
-    display: grid;
-    padding-left: 40px;
+    display: flex;
+    padding-left: 0px;
     margin-left: 20px;
-    margin-right: -125px;
-    width: 40%;
+    margin-right: 0px;
+    width: 250%;
     height: 47%;
-    outline: 0.3rem ridge #05dbf7;
-    grid-column: 3/4;
-    grid-row: 5/6;
+    outline: 0.3rem ridge #0f8f03;
+    /* grid-column: 3/4;
+    grid-row: 5/6; */
     background-image: url("./images/space-image.jpg");
 }
 .work-three {
-    display: grid;
-    padding-left: 40px;
-    margin-left: -235px;
+    display: flex;
+    padding-left: 0px;
+    margin-left: 0px;
     margin-top: 215px;
-    width: 40%;
+    margin-right: 0px;
+    width: 250%;
     height: 46%;
-    outline: 0.3rem ridge #05dbf7;
-    grid-column: 1/6;
-    grid-row: 1/4;
+    outline: 0.3rem ridge #0f8f03;
+    /* grid-column: 1/6;
+    grid-row: 1/4; */
     background-image: url("./images/calculator-image.png");
 }  
 
